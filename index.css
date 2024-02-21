@@ -1,0 +1,132 @@
+
+    
+    body { background-color:#F3EAE3; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+    .botao {
+    background-image: url("file:///C:/Users/Cliente/Downloads/_c5eeeb57-4d0f-408c-bef8-39fbaea94389-removebg-preview.png");
+    background-color: #3E8168;
+    font-family: "Questrial", sans-serif;
+    font-size: normal;
+    position: absolute;
+    top: 280px;
+    left: 20px;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: 600;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 40px;
+    padding-left: 20px;
+    cursor: pointer;
+    transition: all 1.2s
+    ease-in-out 0s;
+    }
+    .botao:hover{
+        background-image: url("file:///C:/Users/Cliente/Downloads/_c5eeeb57-4d0f-408c-bef8-39fbaea94389-removebg-preview.png");
+        background-color: #3E8168;
+        color: white;
+        transform: scale(1.05);
+        cursor: pointer;
+
+
+    }
+
+
+        .conteudo {
+            display: flex;
+            align-items: center;
+        }
+
+        .imagem-arredondada {
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            width: 220px;
+            height: auto;
+            margin: auto;
+        }
+
+        .caixa-branca {
+            background-color: white;
+            padding: 20px;
+            width: 200px;
+            height: 290px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            position: relative;
+
+        }
+
+        .questrial-regular1 {
+        font-family: "Questrial", sans-serif;
+        font-style: normal;
+        position: absolute;
+        top: 5px;
+        left: 30px;
+        letter-spacing: 5px;
+        color: #8E8D91;
+        font-weight: 600;
+        }
+
+        .questrial-regular 
+        {
+        font-family: "Questrial", sans-serif;
+        font-style: normal;
+        position: absolute;
+        top: 140px;
+        left: 30px;
+        letter-spacing: 1px;
+        color: #8E8D91;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 1.8
+        }
+
+        .questrial-regular2
+        {
+        font-family: "Questrial", sans-serif;
+        font-style: normal;
+        position: absolute;
+        top: 223px;
+        left: 135px;
+        letter-spacing: 1px;
+        color: #8E8D91;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 1.8;
+        text-decoration: line-through;
+        }
+
+        .taviraj-thin {
+         font-family: "Taviraj", serif;
+         font-weight: 800;
+         font-style: normal;
+         position: absolute;
+         top: 33px;
+         left: 30px;
+         color: #161B1F;
+         font-size: 4dvh;
+         line-height: 1.0;
+         letter-spacing: -0.5px;
+        } 
+
+        .source-serif4{
+         font-family: "Source Serif 4", serif;
+         font-weight: 800;
+         font-style: normal;
+         position: absolute;
+         top: 210px;
+         left: 30px;
+         color: #3E8168;
+         font-size: 4dvh;
+         line-height: 1.0;
+        } 
